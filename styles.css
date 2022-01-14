@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@
 html{
     height: 100%;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -17,6 +20,8 @@ body{
 
 .navbar{
     border-bottom: 1px solid rgb(201, 201, 201);
+    background-color: rgb(36, 35, 35);
+    color: rgb(221, 212, 212);
 
 }
 
@@ -32,7 +37,8 @@ body{
     font-size: 1.6rem;
 }
 .links{
-    background-color: red;
+    background-color: rgb(36, 35, 35);
+    color: rgb(221, 212, 212);
     transition: display 10s ease-in-out;
     
 }
@@ -41,6 +47,11 @@ body{
     text-align: center;
     line-height: 1.5rem;
     text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.links li:hover{
+    background-color: rgb(77, 74, 74);
 }
 
 .show{
