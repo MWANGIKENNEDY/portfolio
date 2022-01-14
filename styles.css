@@ -31,3 +31,18 @@ body{
 .menu-icon i{
     font-size: 1.6rem;
 }
+.links{
+    background-color: red;
+    transition: display 10s ease-in-out;
+    
+}
+
+.links li{
+    text-align: center;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.show{
+    display: none;
+}
