@@ -22,7 +22,10 @@ body{
     border-bottom: 1px solid rgb(201, 201, 201);
     background-color: rgb(36, 35, 35);
     color: rgb(221, 212, 212);
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .container{
@@ -34,12 +37,16 @@ body{
 }
 
 .menu-icon i{
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 .links{
     background-color: rgb(36, 35, 35);
     color: rgb(221, 212, 212);
     transition: display 10s ease-in-out;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 2rem;
+
     
 }
 
