@@ -108,12 +108,21 @@ img{
 }
 
 .introduction h2{
-    background-color: green;
+    background-color:#5379DB;
     width: 20%;
     margin: 0 auto;
     border-radius: 10px;
     color: white;
     padding: .2rem;
+    
+}
+
+.skills{
+    height: 20vh;
+    background-color:#114ce0;
+    color: white;
+    text-align: center;
+    padding: .5rem;
     
 }
 
