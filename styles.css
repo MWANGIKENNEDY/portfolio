@@ -24,11 +24,20 @@ body{
 
 .logo{
     padding: 1.3rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+
+.logo span{
+    color:rgb(255, 190, 70);
+    font-weight: bold;
+    border:1px solid white;
+    border-radius: 10px;
+    padding: .15rem;
 }
 
 .navbar{
-    border-bottom: 1px solid rgb(201, 201, 201);
-    background-color: rgb(238, 238, 238);
     color: rgb(41, 41, 41);
     position: fixed;
     top: 0;
@@ -103,6 +112,8 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
+    border-color: rgb(255, 190, 70);
+    border-width: 2px;
     height: 30vh;
     width: 30vh;
 }
@@ -139,7 +150,7 @@ img{
 }
 .text-3 span{
     font-weight: bold;
-    color: rgb(255, 60, 0);
+    color: rgb(184, 121, 5);
     
 }
 
