@@ -193,11 +193,42 @@ img{
 
 .skills{
     height: 20vh;
-    background-color:#114ce0;
-    color: white;
+    background-color:#f5f7fd;
+    color: rgb(10, 8, 8);
     text-align: center;
     padding: .5rem;
     
+}
+
+.about{
+    padding: 1rem;
+}
+
+.about .title-section {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+.about .title-section::before{
+    position: absolute;
+    top: 100%;
+    background-color: rgb(10, 8, 8);
+    content: "";
+    height: 10px;
+    width: 200px;
+    transform: translate(-50%);
+}
+
+.about .title-section::after{
+    position: absolute;
+    font-weight: bolder;
+    top: 100%;
+    content: "Who i am";
+    height: 10px;
+    transform: translate(-50%);
+    color: black;
+    background-color: white;
 }
 
 
