@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+    display: block;
+}
+
 html{
     height: 100%;
     font-size: 14px;
@@ -24,8 +28,8 @@ body{
 
 .navbar{
     border-bottom: 1px solid rgb(201, 201, 201);
-    background-color: rgb(36, 35, 35);
-    color: rgb(221, 212, 212);
+    background-color: rgb(238, 238, 238);
+    color: rgb(41, 41, 41);
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +50,7 @@ body{
     font-size: 2rem;
     padding: .5rem;
     background-color: rgb(177, 177, 177);
-    color: white;
+    color: rgb(46, 46, 46);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -81,11 +85,50 @@ img{
     width: 100%;
 }
 
+.banner{
+    background-color: #1C1C1C;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testing{
+    margin-top: 2rem;
+    background-color: yellow;
+    padding: 2rem;
+}
+
+.definitions{
+    line-height: 2.5rem;
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+.text-1{
+    font-size: 1.5rem;
+    
+}
+
+.text-2{
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.text-3{
+    font-size: 1.7rem;
+    
+}
+
 .image-bg{
     margin-top: 4rem;
     position: relative;
-    width: 100%;
+
     height: 50vh;
+    border-radius: 50%;
 
 
     background: url('OLE_2434_Fotor.jpg') no-repeat center;
@@ -109,7 +152,7 @@ img{
 
 .introduction h2{
     background-color:#5379DB;
-    width: 20%;
+    width: auto;
     margin: 0 auto;
     border-radius: 10px;
     color: white;
